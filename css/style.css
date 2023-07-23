@@ -254,4 +254,94 @@ nav{
   background-color: white;
   color:#75CCEB;
 }
+/* card area end */
+
+/* best price section start */
+.best-price{
+  background-image: url(../images/another-image/Rectangle\ 226\(1\).png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.best-price-left{
+  width: 642px;
+  height: 444px;
+  margin-left: 100px;
+  text-align: right;
+  position: absolute;
+  top: 170px;
+}
+.best-price-content h4{
+  font-size: 64px;
+  font-weight: 700;
+  color:#31546D;
+}
+.best-price-content .price{
+  font-size: 40px;
+  font-weight: 400;
+  color:#31546D;
+}
+.dollar-rate{
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  gap: 20px;
+}
+.dollar-rate del{
+  font-size: 24px;
+  font-weight: 400;
+  color:#31546D;
+}
+.dollar-rate .d2{
+  font-size: 70px;
+  font-weight: 700;
+  color:#E35B3E;
+}
+.best-price-left .best-price-content p{
+  font-size: 16px;
+  font-weight: 400;
+  color:#31546D;
+  margin: 50px 0;
+}
+.best-btn{
+  font-size: 16px;
+  font-family: 700;
+  color: white;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  border: none;
+  background-color: #75CCEB;
+  border-radius: 18px;
+  width: 180px;
+  height: 56px;
+}
+.best-price-right img{
+  position: absolute;
+  bottom: 100px;
+  right: 0;
+  text-align: center;
+}
+.best-price-right .ellipse{
+  margin-right: 100px;
+  margin-bottom: 100px;
+}
+.best-price-right .grip{
+  margin-right: 220px;
+  margin-bottom: 200px;
+  height: 248px;
+  width: 248px;
+}
+
+/* best price section start */
+
 /* main area end */
+
+/* footer start */
+footer{
+  width: 1440px;
+  height: 269px;
+  background-color: #0A294DCC;
+  margin: auto;
+}
+/* footer end */
